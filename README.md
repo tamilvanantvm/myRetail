@@ -13,7 +13,7 @@ Example product IDs: 13860428, 54456119, 13264003, 12954218)
 •	BONUS: Accepts an HTTP PUT request at the same path (/products/{id}), containing a JSON request body similar to the GET response, and updates the product’s price in the data store.  
 
 Output for Get Api:-
-http://localhost:8080/swagger-ui.html#/
+http://localhost:8080/products/13860428
  
 {
     "id": 13860428,
@@ -25,6 +25,7 @@ http://localhost:8080/swagger-ui.html#/
 }
 
 Output for Put APi:-
+http://localhost:8080/products/13860428
  
 {
     "id": 13860428,
